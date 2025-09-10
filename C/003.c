@@ -1,5 +1,5 @@
-#import<stdio.h>
-#import<locale.h>
+#include<stdio.h>
+#include<locale.h>
 
 int main(){
 	
@@ -62,7 +62,7 @@ int main(){
 	printf("A Area do Retangulo é de %d cm² \n",area);
 	
 		system("pause");
-		
+	
 		char nomep[12];
 		float valorp;
 		int distancia;
@@ -75,10 +75,17 @@ int main(){
 		scanf("%s",&nomep);
 	printf("Qual o valor do produto!\n");
 		scanf("%f",&valorp);
-	printf("Digite a distancia da origem pro meu destino!\n");
+	printf("Digite a distancia da origem pro meu destino!, em Km!\n");
 		scanf("%d",&distancia);
 	
-	
+		if(distancia > 50){
+			printf("O frete sera de 20 reais!\n");
+		}else if(distancia == 50){
+			printf("O frete sera de 10 reais!\n");
+		}
+		
+		system("pause");
+		
 	printf("Fim do Programa\n");
 	
 }
