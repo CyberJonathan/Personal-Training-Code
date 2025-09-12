@@ -15,3 +15,21 @@ let x = 12;
 let age;
 
 age = 32;
+let firstname = "Jonathan"
+let funcional = true;
+let naofuncional = false;
+
+console.log(typeof age);
+console.log(`Your age is ${age}`);
+console.log(typeof firstname);
+console.log(`My first name is ${firstname}`);
+
+console.log(typeof funcional);
+console.log(`My pc works underwater ${naofuncional}`);
+
+console.log(typeof naofuncional);
+console.log(`MY pc works in the air ${funcional}`);
+
+    document.getElementById("p1").textContent = firstname;
+    document.getElementById("p2").textContent = age;
+    document.getElementById("p3").textContent = funcional;
