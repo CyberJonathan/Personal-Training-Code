@@ -33,3 +33,14 @@ console.log(`MY pc works in the air ${funcional}`);
     document.getElementById("p1").textContent = firstname;
     document.getElementById("p2").textContent = age;
     document.getElementById("p3").textContent = funcional;
+
+let students;
+students = 30 + 1;
+
+console.log(students);
+console.log(typeof students);
+console.log(`So the numbers of students in my class is ${students + 3}`);
+
+    console.log(`I like a lot of things. like Brazilian Pizza, Curry Chicken.`);
+        let favoritefood = "Brazilian Pizza, Curry Chicken";
+        
