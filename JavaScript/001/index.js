@@ -43,4 +43,10 @@ console.log(`So the numbers of students in my class is ${students + 3}`);
 
     console.log(`I like a lot of things. like Brazilian Pizza, Curry Chicken.`);
         let favoritefood = "Brazilian Pizza, Curry Chicken";
-        
+
+        console.log(students *= 2);
+            console.log(students /= 4); 
+                console.log(students += 6);
+                    studentsPlus = 15 + 3 * (4 * 4);
+                    console.log(typeof studentsPlus);
+                    console.log(studentsPlus);
