@@ -1,1 +1,6 @@
-[![Assista no YouTube](https://img.youtube.com/vi/v=lfmg-EJ8gm4/hqdefault.jpg)](https://www.youtube.com/watch?v=lfmg-EJ8gm4&t=571s)
+*Videos I using for studying and learn the language:
+
+JAVASCRIPT:
+
+<img width="500" height="284" alt="Captura de tela 2025-09-12 211902" src="https://github.com/user-attachments/assets/5a461ddc-abed-4200-bb55-01f03049e58b" />
+!LINK: https://youtu.be/lfmg-EJ8gm4
