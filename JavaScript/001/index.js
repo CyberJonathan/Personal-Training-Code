@@ -50,3 +50,31 @@ console.log(`So the numbers of students in my class is ${students + 3}`);
                     studentsPlus = 15 + 3 * (4 * 4);
                     console.log(typeof studentsPlus);
                     console.log(studentsPlus);
+
+        let username;
+            username = window.prompt("What is your name?\n");
+
+            let result;
+
+                do{
+                        result = Number(window.prompt("For you use this website, you need to do this aritmethic calculus.\n 3 + 5? \n"));
+                    if(result === 7){
+                        window.alert(`Very well, you can use this website now!.`);
+                    }else{
+                        window.alert(`MAnnn, you miss this calculus, try again next time.`);
+                    }
+                    }while(result !== 7);
+
+                    let passwordM;
+
+                        document.getElementById("fbutton").onclick = function(){
+
+                        passwordM = Number(document.getElementById("Myfinput").value);
+
+                            if(passwordM){
+                                window.alert(`So, your password is?${passwordM}.\n To easy hein, lol`);
+
+                                document.getElementById("Myfinput").value = "";
+                            }
+                            
+                        }
