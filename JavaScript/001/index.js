@@ -65,13 +65,16 @@ console.log(`So the numbers of students in my class is ${students + 3}`);
                     }
                     }while(result !== 7);
 
-                    let passwordM;
+                    let passwordM = [];
+                        let digits = [];
 
                         document.getElementById("fbutton").onclick = function(){
 
-                        passwordM = Number(document.getElementById("Myfinput").value);
+                        passwordM = (document.getElementById("Myfinput").value);
+                            digits = passwordM.split("").map(Number);
+                                passowordM.push(...digits);
 
-                            if(passwordM){
+                            if(passwordM.length === 6){
                                 window.alert(`So, your password is?${passwordM}.\n To easy hein, lol`);
 
                                 document.getElementById("Myfinput").value = "";
