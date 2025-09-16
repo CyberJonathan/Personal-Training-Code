@@ -66,26 +66,42 @@ console.log(`So the numbers of students in my class is ${students + 3}`);
                     }while(result !== 7);
 
                     let passwordM = [];
-                        let digits = [];
 
                         document.getElementById("fbutton").onclick = function(){
 
-                        passwordM = (document.getElementById("Myfinput").value);
-                            digits = passwordM.split("").map(Number);
-                                passowordM.push(...digits);
+                        passwordM = document.getElementById("Myfinput").value;
+                            passwordM = Number(passwordM);
 
-                            if(passwordM.length === 6){
-                                window.alert(`So, your password is?${passwordM}.\n To easy hein, lol`);
+                            if(passwordM.length === 6 && passwordM.every(n => !isNaN(n))){
+                                window.alert(`So, your password is? ${passwordM}. \n To easy hein, lol`);
+
+                                document.getElementById("Myfinput").value = "";
+                            }else{
+                                window.alert("You need to put a value inside the text box!.\n Minimum/Max 6 numbers!.");
 
                                 document.getElementById("Myfinput").value = "";
                             }
                             
                         }
 
-                        let o = 10;
+                        let j = 10;
+                        let p = "verdade";
+                        let k = 15;
+                        const primitive = 90;
 
-                        o = String(o);
 
-                            console.log(o);
+                        j = String(j);
+                        p = Number(p);
+                        k = boolen(k); 
+
+                            console.log(o, typeof o);
+                            console.log(p, typeof p);
+                            console.log(k, typeof k);
+
+
+
+
+
+                            
 
                         
