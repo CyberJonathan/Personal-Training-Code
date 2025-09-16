@@ -81,3 +81,11 @@ console.log(`So the numbers of students in my class is ${students + 3}`);
                             }
                             
                         }
+
+                        let o = 10;
+
+                        o = String(o);
+
+                            console.log(o);
+
+                        
