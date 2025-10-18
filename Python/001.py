@@ -4,7 +4,7 @@ print(name)
 
 a, b = 2, 5
 
-while a< 10:
+while a < 10 and b < 10:
         print(a,b)
         a = a + 1 
         b = b + 1
